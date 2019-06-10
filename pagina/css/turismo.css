@@ -1,0 +1,113 @@
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*Para el cover*/
+
+#cover {
+    background: url(../imagen/cajamarca.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+#cover-texto .form-inline {
+    padding: 5rem 0;
+}
+
+.contenido-seccion {
+    padding: 5rem 0;
+}
+
+#acerca-de {
+    background: url(../imagen/polloc.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.texto-acerca-de {
+    background: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem;
+}
+
+
+/*Estilo para Barra Social*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-youtube {
+    background: #ff0000;
+}
+
+.social ul li .icon-google-plus {
+    background: #d95232;
+}
+
+.social ul li .icon-whatsapp {
+    background: #25d366;
+}
+
+.social ul li .icon-instagram {
+    background: #c32aa3;
+}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+    background: #000;
+}
