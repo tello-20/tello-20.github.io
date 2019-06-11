@@ -337,7 +337,22 @@
                     </form>
                 </div>
                 <div class="col-lg-3 align-self-center">
-                    <img src="imagen/tellologo.ico" alt="tello">
+                    <form name="formulario" method="post" action="http://pagina.com/send.php">
+                        <!-- Campo de entrada de fecha -->
+                        Seleccione fecha:
+                        <input type="date" name="fecha" min="2019-01-25" max="2019-12-25" step="2">
+                        <!-- Campo de entrada de hora -->
+                        <input type="time" name="hora" min="7:00" max="21:00" step="3600">
+                    </form>
+                    <hr>
+                    <form name="formulario" method="post" action="http://pagina.com/send.php">
+                        <!-- Campo de entrada de mes -->
+                        Seleccione mes:
+                        <input type="month" name="mes" value="2019-01" min="2019-01" max="2019-12" step="2">
+                        <!-- Campo de entrada de semana -->
+                        Seleccione semana:
+                        <input type="week" name="semana" value="2019-W18" min="2019-W10" max="2019-W20" step="2">
+                    </form>
                 </div>
             </div>
             <hr>
