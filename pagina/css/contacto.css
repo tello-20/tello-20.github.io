@@ -9,14 +9,13 @@
 
 .main-header {
     position: relative;
-    background: url(../imagen/conta887.jpg);
+    background: url(../imagen/azuloriginal.jpg);
     background-size: cover;
     min-height: 420px;
 }
 
 .background-overlay {
     position: absolute;
-    background: rgba(48, 51, 107, .7);
     top: 0;
     left: 0;
     width: 100%;
@@ -56,7 +55,7 @@ form {
 
 .social {
     position: fixed;
-    left: 0;
+    right: 0;
     top: 200px;
     z-index: 2000;
 }
@@ -111,3 +110,6 @@ form {
 .icon-whatsapp {
     color: #25d366;
 }
+
+
+/**/
